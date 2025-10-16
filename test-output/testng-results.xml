@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is launched successfully with logo]]>
+    </line>
+    <line>
+      <![CDATA[signup/Login link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed with header - Login to your account]]>
+    </line>
+    <line>
+      <![CDATA[Email address is entered]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Products link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[The Products page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Women panel is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Tops category is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Women products under selected category are displayed ]]>
+    </line>
+    <line>
+      <![CDATA[A product is added to the cart ]]>
+    </line>
+    <line>
+      <![CDATA[Product added to the cart confirmation message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Continue Shopping button is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Products link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Search bar is clicked for searching men products]]>
+    </line>
+    <line>
+      <![CDATA[Input is entered into the search bar ]]>
+    </line>
+    <line>
+      <![CDATA[Specified men product is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to the cart ]]>
+    </line>
+    <line>
+      <![CDATA[Product added to the cart confirmation message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[View Cart link is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[The Cart page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The cart contains the following products]]>
+    </line>
+    <line>
+      <![CDATA[Blue Top
+Women > Tops]]>
+    </line>
+    <line>
+      <![CDATA[Green Side Placket Detail T-Shirt
+Men > Tshirts]]>
+    </line>
+    <line>
+      <![CDATA[Proceed To Checkout button is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Additional instruction is provided through comment/message box]]>
+    </line>
+    <line>
+      <![CDATA[Place Order button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[The Payment page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Name on the is provided]]>
+    </line>
+    <line>
+      <![CDATA[Card number is provided]]>
+    </line>
+    <line>
+      <![CDATA[CVV is provided]]>
+    </line>
+    <line>
+      <![CDATA[Expiry Month is provided]]>
+    </line>
+    <line>
+      <![CDATA[Expiry Year is provided]]>
+    </line>
+    <line>
+      <![CDATA[Pay And Confirm Order Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Order is placed successfully with message displayed on the screen as:Congratulations! Your order has been confirmed!]]>
+    </line>
+    <line>
+      <![CDATA[Continue button is clciked]]>
+    </line>
+    <line>
+      <![CDATA[Logout link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged out from the account]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-16T09:04:15 IST" name="Suite" finished-at="2025-10-16T09:05:44 IST" duration-ms="88436">
+    <groups>
+    </groups>
+    <test started-at="2025-10-16T09:04:15 IST" name="Test" finished-at="2025-10-16T09:05:44 IST" duration-ms="88436">
+      <class name="test.EndToEndTesting">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:04:15 IST" name="setUp" finished-at="2025-10-16T09:04:20 IST" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="launchApplication()[pri:1, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:04:20 IST" name="launchApplication" finished-at="2025-10-16T09:04:21 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is launched successfully with logo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login()[pri:2, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:04:21 IST" name="login" finished-at="2025-10-16T09:04:32 IST" duration-ms="11573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[signup/Login link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed with header - Login to your account]]>
+            </line>
+            <line>
+              <![CDATA[Email address is entered]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="shopProduct()[pri:3, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:04:32 IST" name="shopProduct" finished-at="2025-10-16T09:05:17 IST" duration-ms="45192" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Products link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[The Products page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Women panel is clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Tops category is clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Women products under selected category are displayed ]]>
+            </line>
+            <line>
+              <![CDATA[A product is added to the cart ]]>
+            </line>
+            <line>
+              <![CDATA[Product added to the cart confirmation message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Continue Shopping button is clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Products link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Search bar is clicked for searching men products]]>
+            </line>
+            <line>
+              <![CDATA[Input is entered into the search bar ]]>
+            </line>
+            <line>
+              <![CDATA[Specified men product is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to the cart ]]>
+            </line>
+            <line>
+              <![CDATA[Product added to the cart confirmation message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[View Cart link is clicked ]]>
+            </line>
+            <line>
+              <![CDATA[The Cart page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[The cart contains the following products]]>
+            </line>
+            <line>
+              <![CDATA[Blue Top
+Women > Tops]]>
+            </line>
+            <line>
+              <![CDATA[Green Side Placket Detail T-Shirt
+Men > Tshirts]]>
+            </line>
+            <line>
+              <![CDATA[Proceed To Checkout button is clicked ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shopProduct -->
+        <test-method signature="proceedCheckout()[pri:4, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:05:17 IST" name="proceedCheckout" finished-at="2025-10-16T09:05:41 IST" duration-ms="24033" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Additional instruction is provided through comment/message box]]>
+            </line>
+            <line>
+              <![CDATA[Place Order button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[The Payment page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Name on the is provided]]>
+            </line>
+            <line>
+              <![CDATA[Card number is provided]]>
+            </line>
+            <line>
+              <![CDATA[CVV is provided]]>
+            </line>
+            <line>
+              <![CDATA[Expiry Month is provided]]>
+            </line>
+            <line>
+              <![CDATA[Expiry Year is provided]]>
+            </line>
+            <line>
+              <![CDATA[Pay And Confirm Order Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Order is placed successfully with message displayed on the screen as:Congratulations! Your order has been confirmed!]]>
+            </line>
+            <line>
+              <![CDATA[Continue button is clciked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- proceedCheckout -->
+        <test-method signature="logout()[pri:5, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:05:41 IST" name="logout" finished-at="2025-10-16T09:05:43 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged out from the account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.EndToEndTesting@24269709]" started-at="2025-10-16T09:05:43 IST" name="tearDown" finished-at="2025-10-16T09:05:44 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.EndToEndTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

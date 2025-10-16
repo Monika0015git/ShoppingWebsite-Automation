@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 16 09:04:15 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88436 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.EndToEndTesting.shopProduct()'><b>shopProduct</b><br>Test class: test.EndToEndTesting<br/>
+<a href="#Output-1692523793" onClick='toggleBox("Output-1692523793", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692523793" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692523793">
+Products link is clicked<br/>
+The Products page is displayed<br/>
+Women panel is clicked <br/>
+Tops category is clicked <br/>
+Women products under selected category are displayed <br/>
+A product is added to the cart <br/>
+Product added to the cart confirmation message is displayed<br/>
+Continue Shopping button is clicked <br/>
+Products link is clicked<br/>
+Search bar is clicked for searching men products<br/>
+Input is entered into the search bar <br/>
+Specified men product is displayed <br/>
+Product is added to the cart <br/>
+Product added to the cart confirmation message is displayed<br/>
+View Cart link is clicked <br/>
+The Cart page is displayed<br/>
+The cart contains the following products<br/>
+Blue Top
+Women > Tops<br/>
+Green Side Placket Detail T-Shirt
+Men > Tshirts<br/>
+Proceed To Checkout button is clicked <br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>test.EndToEndTesting@24269709</td></tr>
+<tr>
+<td title='test.EndToEndTesting.proceedCheckout()'><b>proceedCheckout</b><br>Test class: test.EndToEndTesting<br/>
+<a href="#Output-1501513951" onClick='toggleBox("Output-1501513951", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501513951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501513951">
+Additional instruction is provided through comment/message box<br/>
+Place Order button is clicked<br/>
+The Payment page is displayed<br/>
+Name on the is provided<br/>
+Card number is provided<br/>
+CVV is provided<br/>
+Expiry Month is provided<br/>
+Expiry Year is provided<br/>
+Pay And Confirm Order Button is clicked<br/>
+Order is placed successfully with message displayed on the screen as:Congratulations! Your order has been confirmed!<br/>
+Continue button is clciked<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>test.EndToEndTesting@24269709</td></tr>
+<tr>
+<td title='test.EndToEndTesting.login()'><b>login</b><br>Test class: test.EndToEndTesting<br/>
+<a href="#Output-1968552224" onClick='toggleBox("Output-1968552224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1968552224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1968552224">
+signup/Login link is clicked<br/>
+Login page is displayed with header - Login to your account<br/>
+Email address is entered<br/>
+Password is entered<br/>
+Login button is clicked<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>test.EndToEndTesting@24269709</td></tr>
+<tr>
+<td title='test.EndToEndTesting.launchApplication()'><b>launchApplication</b><br>Test class: test.EndToEndTesting<br/>
+<a href="#Output-567852222" onClick='toggleBox("Output-567852222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-567852222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-567852222">
+Application is launched successfully with logo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.EndToEndTesting@24269709</td></tr>
+<tr>
+<td title='test.EndToEndTesting.logout()'><b>logout</b><br>Test class: test.EndToEndTesting<br/>
+<a href="#Output-1161644395" onClick='toggleBox("Output-1161644395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1161644395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1161644395">
+Logout link is clicked<br/>
+Successfully logged out from the account<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.EndToEndTesting@24269709</td></tr>
+</table><p>
+</body>
+</html>
