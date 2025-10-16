@@ -102,3 +102,11 @@ Password : sarah@2025#wheeler
 
 ---
 
+## 📸 Screenshots
+
+### 🧱 Framework Structure
+![Framework Structure](screenshots/Framework%20Structure.png)
+
+### 📊 Execution Report
+![Execution Report](screenshots/Execution%20Report.png)
+
